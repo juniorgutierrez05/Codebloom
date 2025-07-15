@@ -58,3 +58,153 @@
     transform: translateY(-10px);
   }
 }
+.solutions {
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 80px;
+  flex-wrap: wrap;
+  gap: 40px;
+  background-color: #fff;
+}
+
+.leftColumn {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* <- Esto alinea todo a la izquierda */
+  gap: 20px; /* Espacio entre los elementos */
+}
+
+.rightColumn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  flex: 2;
+  min-width: 300px;
+  
+}
+
+.sectionTitle {
+  color: #122C81;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.mainTitle {
+  color: #F5A905;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.logo {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 10px;
+}
+
+.cta {
+  background-color: #F5A905;
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 12px 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background 0.3s ease;
+  margin-left: 0;
+  animation: bounce 1s infinite;
+}
+
+.cta:hover {
+  background-color: #d48800;
+}
+
+.card {
+  background-color: #eaf4fd;
+  width: 300px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h4 {
+  font-size: 18px;
+  color: #122C81;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #333;
+}
+.icono{
+    width: 60px;
+     display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 20px;
+}
+.clientsSection {
+  background-color: #122C81;
+  background-size: cover;
+  background-position: center;
+  padding: 60px 20px;
+  overflow: hidden;
+  text-align: center;
+  color: white;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+/* Carrusel automático */
+.slider {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.slideTrack {
+  display: flex;
+  width: calc(300px * 18); /* 18 slides, ajusta según contenido */
+  animation: scroll 40s linear infinite;
+}
+
+.slide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+  padding: 10px;
+  flex-shrink: 0;
+}
+
+.slide p {
+  font-size: 14px;
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}

@@ -10,7 +10,7 @@ export default function navbar(){
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}><Link href="/">Home</Link></li>
-                <li className={styles.link}><Link href="#filosofia">Soluciones</Link></li>
+                <li className={styles.link}><Link href="#soluciones">Soluciones</Link></li>
                 <li className={styles.link}><Link href="/">Soporte</Link></li>
                 <li className={styles.link}><Link href="/">Contacto</Link></li>
             </ul>
