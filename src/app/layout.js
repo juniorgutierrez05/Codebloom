@@ -6,6 +6,9 @@ import Footer from '@/components/Footer/footer';
 export const metadata = {
   title: 'Codebloom - Crecemos ideas con código',
   description: 'Empresa de desarrollo web, diseño y asesorías tecnológicas.',
+  icons: {
+    icon: '/Image/logo1.png',
+  },
 };
 
 export default function RootLayout({ children }) {
