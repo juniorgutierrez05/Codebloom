@@ -113,20 +113,13 @@
 }
 
 .cta {
-  background-color: #F5A905;
-  color: white;
-  border: none;
-  border-radius: 25px;
-  padding: 12px 25px;
   cursor: pointer;
-  font-weight: bold;
   transition: background 0.3s ease;
-  margin-left: 0;
   animation: bounce 1s infinite;
 }
 
 .cta:hover {
-  background-color: #d48800;
+  background-color: #ffb432;
 }
 
 .card {

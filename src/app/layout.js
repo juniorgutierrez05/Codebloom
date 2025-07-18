@@ -7,7 +7,7 @@ export const metadata = {
   title: 'Codebloom - Crecemos ideas con código',
   description: 'Empresa de desarrollo web, diseño y asesorías tecnológicas.',
   icons: {
-    icon: '/Image/logo1.png',
+    icon: '/Image/logo2.png',
   },
 };
 

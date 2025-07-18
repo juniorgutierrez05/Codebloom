@@ -1,6 +1,6 @@
 import styles from "./section.module.css";
 import Image from "next/image";
-
+import ScheduleButton from "../Button/button";
 export default function solutions() {
   return (
     <section className={styles.solutions} id="soluciones">
@@ -19,7 +19,9 @@ export default function solutions() {
           alt="Logo Codebloom"
           className={styles.logo}
         />
-        <button className={styles.cta}>Agendar Asesoría</button>
+        <div className={styles.cta}>
+          <ScheduleButton/>
+        </div>
       </div>
 
       <div className={styles.rightColumn}>
